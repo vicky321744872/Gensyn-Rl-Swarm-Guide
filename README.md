@@ -2,11 +2,11 @@
 
 
 
-A clean, stylish, and easy-to-follow guide for installing, configuring, and running \*\*Gensyn RL-Swarm\*\* on Ubuntu.
+A easy guide for Gensyn RL-Swarm on Ubuntu.
 
-\ ##Requirements :-
+Requirements for VPS :-
 
-* Min 16 GB RAM
+* Min 20 GB RAM
 * RTX 3090/4090 GPU ( Optional )
 
 ---
@@ -143,7 +143,7 @@ screen -r gensyn
 
 
 
-\## Author
+\ Guide By
 
 
 
