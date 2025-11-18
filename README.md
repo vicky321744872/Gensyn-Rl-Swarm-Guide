@@ -1,10 +1,13 @@
-\# 🚀 #Gensyn RL-Swarm Setup Guide#
+\# 🚀 #Gensyn RL-Swarm Setup Guide
 
 
 
 A clean, stylish, and easy-to-follow guide for installing, configuring, and running \*\*Gensyn RL-Swarm\*\* on Ubuntu.
 
+\ ##Requirements :-
 
+* Min 16 GB RAM
+* RTX 3090/4090 GPU ( Optional )
 
 ---
 
