@@ -1,4 +1,4 @@
-\# 🚀 Gensyn RL-Swarm Setup Guide
+\# 🚀 #Gensyn RL-Swarm Setup Guide#
 
 
 
@@ -56,7 +56,7 @@ screen -S gensyn
 
 
 
-\## ⚙️ 4. Set Up Environment \& Install Frontend Dependencies
+\##  4. Set Up Environment \& Install Frontend Dependencies
 
 ```bash
 cd rl-swarm
@@ -122,16 +122,6 @@ cloudflared tunnel --url http://localhost:3000
 ```
 
 
-```bash
-
-
-\## 7.2 Login
-
-cloudflared tunnel --url http://localhost:3000
-
-
----
-
 ---
 
 \##  8. Reattach Screen Session
@@ -154,7 +144,7 @@ screen -r gensyn
 
 
 
-\ X ;(Twitter): @vickyjanjalkar (https://x.com/vickyjanjalkar)
+\ X: (Twitter): @vickyjanjalkar (https://x.com/vickyjanjalkar)
 
 
 
