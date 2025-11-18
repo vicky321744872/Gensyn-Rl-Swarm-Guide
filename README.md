@@ -194,7 +194,7 @@ screen -r gensyn
 
 
 
-\*\*X (Twitter):\*\* \[@vickyjanjalkar](https://x.com/vickyjanjalkar)
+\*\*X (Twitter):@vickyjanjalkar (https://x.com/vickyjanjalkar)
 
 
 
@@ -202,7 +202,6 @@ screen -r gensyn
 
 
 
-💡 \*Need enhancements, badges, dark theme styling, or ASCII banners? Tell me, I’ll upgrade this README!\*
 
 
 
