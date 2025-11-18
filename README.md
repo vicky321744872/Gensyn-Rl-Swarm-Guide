@@ -1,4 +1,4 @@
-\# 🚀 #Gensyn RL-Swarm Setup Guide
+🚀 Gensyn RL-Swarm Setup Guide
 
 
 
@@ -143,11 +143,10 @@ screen -r gensyn
 
 
 
-\ Guide By
+Guide By
 
 
-
-\ X: (Twitter): @vickyjanjalkar (https://x.com/vickyjanjalkar)
+X:(Twitter): @vickyjanjalkar https://x.com/vickyjanjalkar
 
 
 
