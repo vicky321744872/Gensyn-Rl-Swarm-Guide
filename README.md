@@ -13,7 +13,7 @@ Requirements for VPS :-
 
 
 
-\## 1. Install Required Dependencies
+\# 1. Install Required Dependencies
 
 ```bash
 
@@ -36,7 +36,7 @@ yarn -v
 
 
 
-\## 2. Clone the RL-Swarm Repository
+\# 2. Clone the RL-Swarm Repository
 
 ```bash
 git clone https://github.com/gensyn-ai/rl-swarm.git
@@ -44,7 +44,7 @@ git clone https://github.com/gensyn-ai/rl-swarm.git
 
 ---
 
-\## 3. Create a Screen Session
+\# 3. Create a Screen Session
 
 
 ```bash
@@ -59,7 +59,7 @@ screen -S gensyn
 
 
 
-\##  4. Set Up Environment \& Install Frontend Dependencies
+\#  4. Set Up Environment & Install Frontend Dependencies
 
 ```bash
 cd rl-swarm
@@ -78,7 +78,7 @@ cd ..
 
 
 
-\## 5. Update Repository Before Running
+\# 5. Update Repository Before Running
 
 ```bash
 git switch main
@@ -94,7 +94,7 @@ git pull origin main
 
 
 
-\## 6. Start RL-Swarm
+\# 6. Start RL-Swarm
 
 
 
@@ -110,7 +110,7 @@ git pull origin main
 
 
 
-\## 7.1 Login (Cloudflared Tunnel)
+\# 7.1 Login (Cloudflared Tunnel)
 
 
 
@@ -127,7 +127,7 @@ cloudflared tunnel --url http://localhost:3000
 
 ---
 
-\##  8. Reattach Screen Session
+\#  8. Reattach Screen Session
 
 
 
