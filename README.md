@@ -110,17 +110,13 @@ git pull origin main
 
 
 
-\# 7.1 Login (Cloudflared Tunnel)
+\# 7. Login (Cloudflared Tunnel)
 
 
 
 ```bash
 
-curl -fsSL https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -o cloudflared
-chmod +x cloudflared
-sudo mv cloudflared /usr/local/bin
-
-cloudflared tunnel --url http://localhost:3000
+ cloudflared tunnel --url http://localhost:3000
 
 ```
 
@@ -146,7 +142,8 @@ screen -r gensyn
 Guide By
 
 
-X:(Twitter): @vickyjanjalkar https://x.com/vickyjanjalkar
+X:(Twitter): @vickyjanjalkar 
+https://x.com/vickyjanjalkar
 
 
 
