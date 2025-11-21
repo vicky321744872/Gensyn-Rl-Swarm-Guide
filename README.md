@@ -13,7 +13,7 @@ Requirements for VPS :-
 
 
 
-\ 1. Install Required Dependencies
+ 1. Install Required Dependencies
 
 ```bash
 
@@ -123,7 +123,7 @@ git pull origin main
 
 ---
 
-\ 8. Reattach Screen Session
+ TO Reattach Screen Session
 
 
 
