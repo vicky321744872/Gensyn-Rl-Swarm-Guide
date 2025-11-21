@@ -127,7 +127,7 @@ git pull origin main
 ---
 
 
- T
+ To cheak your node is running or not
 
 
 
