@@ -62,8 +62,7 @@ screen -S gensyn
  4. Set Up Environment & Install Frontend Dependencies
 
 ```bash
-cd rl-swarm
-python3 -m venv .venv
+cd rl-swarm python3 -m venv .venv
 source .venv/bin/activate
 cd modal-login
 yarn install
@@ -81,10 +80,8 @@ cd ..
  5. Update Repository Before Running
 
 ```bash
-git switch main
-git reset --hard
-git clean -fd
-git pull origin main
+git switch main git reset --hard
+git clean -fd git pull origin main
 
 ```
 
