@@ -9,7 +9,8 @@ Requirements for VPS :-
 * Min 20 GB RAM
 * RTX 3090/4090 GPU ( Optional )
   
- Lets get straigt to the point If met the the above requirements, Run one by one commands.
+ Lets get straight to the point.
+ If you met the the above requirements, Just start to run one by one commands.
  
 ---
 
