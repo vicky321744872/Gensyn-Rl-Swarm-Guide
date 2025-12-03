@@ -2,13 +2,14 @@
 
 
 
-A easy guide for Gensyn RL-Swarm on Ubuntu.
-
+A Simple and easy guide for Gensyn RL-Swarm on Ubuntu/WSL/VPS.
 Requirements for VPS :-
 
 * Min 20 GB RAM
 * RTX 3090/4090 GPU ( Optional )
-
+  
+ Lets get straigt to the point If met the the above requirements, Run one by one commands.
+ 
 ---
 
 
@@ -119,7 +120,7 @@ git clean -fd git pull origin main
  cloudflared tunnel --url http://localhost:3000
 
 ```
-If above tunnel wont work then use below cmd 
+If above tunnel wont work then use below Cloudflare Tunnel 
 
 ```bash
 curl -fsSL https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -o cloudflared
