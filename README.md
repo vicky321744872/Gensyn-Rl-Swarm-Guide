@@ -7,7 +7,7 @@ A Simple and easy guide for Gensyn RL-Swarm on Ubuntu/WSL/VPS.
 Requirements for VPS :-
 
 * Min 20 GB RAM
-* RTX 3090/4090 GPU ( Optional )
+* RTX 3090/4090 GPU
   
  Lets get straight to the point.
  If you met the the above requirements, Just start to run one by one commands.
