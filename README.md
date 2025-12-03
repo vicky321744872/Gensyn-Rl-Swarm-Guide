@@ -42,7 +42,6 @@ git clone https://github.com/gensyn-ai/rl-swarm.git
 
 
 ```bash
-
 screen -S gensyn
 
 ```
@@ -56,11 +55,12 @@ screen -S gensyn
  4. Set Up Environment & Install Frontend Dependencies
 
 ```bash
-cd rl-swarm python3 -m venv .venv
+cd rl-swarm
+python3 -m venv .venv
 source .venv/bin/activate
 cd modal-login
 yarn install
-yarn upgrade \&\& yarn add next@latest \&\& yarn add viem@latest
+yarn upgrade &&  yarn add next@latest &&  yarn add viem@latest
 cd ..
 
 ```
@@ -74,8 +74,10 @@ cd ..
  5. Update Repository Before Running
 
 ```bash
-git switch main git reset --hard
-git clean -fd git pull origin main
+git switch main
+git reset --hard
+git clean -fd
+git pull origin main
 
 ```
 
@@ -98,12 +100,14 @@ git clean -fd git pull origin main
 
 
 ---
+After running thsi cmd just wait untill you see.>
 
+modal userData.json to be created...
 
+then
 
  7. Login (Cloudflared Tunnel)
-    After successfully running the run cmnd.
-
+    
     Ctrl A + D
     
     then run the below cammand
@@ -113,14 +117,10 @@ git clean -fd git pull origin main
  cloudflared tunnel --url http://localhost:3000
 
 ```
-If above tunnel wont work then use below Cloudflare Tunnel 
+If above tunnel wont work then use below Tunnel 
 
 ```bash
-curl -fsSL https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -o cloudflared
-chmod +x cloudflared
-sudo mv cloudflared /usr/local/bin
-
-cloudflared tunnel --url http://localhost:3000
+ssh -o StrictHostKeyChecking=no -R 80:localhost:3000 nokey@localhost.run
 ```
 
 ---
