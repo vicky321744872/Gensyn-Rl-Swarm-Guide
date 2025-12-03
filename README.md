@@ -119,7 +119,15 @@ git clean -fd git pull origin main
  cloudflared tunnel --url http://localhost:3000
 
 ```
+If above tunnel wont work then use below cmd 
 
+```bash
+curl -fsSL https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -o cloudflared
+chmod +x cloudflared
+sudo mv cloudflared /usr/local/bin
+
+cloudflared tunnel --url http://localhost:3000
+```
 
 ---
 
